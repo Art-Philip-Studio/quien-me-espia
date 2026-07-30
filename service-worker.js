@@ -1,10 +1,12 @@
-const CACHE_NAME = "quien-me-espia-v1";
+const CACHE_NAME = "quien-me-espia-v2";
 const ASSETS_TO_CACHE = [
   "/",
   "/index.html",
   "/manifest.json",
+  "/favicon.ico",
   "/icons/icon-192.png",
-  "/icons/icon-512.png"
+  "/icons/icon-512.png",
+  "/icons/apple-touch-icon.png"
 ];
 
 self.addEventListener("install", (event) => {
